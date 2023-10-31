@@ -21,8 +21,7 @@
 - 공통  : 서비스 기획 및 ERD 설계, REST API 개발 
 
 ### ⚙️ 개발 환경
-- Javascript(ES6), node.js
-- React.js
+- Javascript(ES6), node.js, React.js
 - Database : Oracle DB(11xe), Redis DB(7.x)
 
 ## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-React/wiki/%ED%95%98%EC%9D%B4%EC%BC%80%EC%96%B4(%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C)"> - 상세 보기(wiki 이동)
