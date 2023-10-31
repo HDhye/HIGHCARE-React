@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# HIGHCARE-REACT
+하이케어 프로젝트_프론트엔드
+<br>
+목적: 스프링부트 기반의 REST API 서버를 연동한 그룹웨어 및 React.js SPA 애플리케이션 개발과 Docker를 활용한 AWS 클라우드 배포 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🖥️ 프로젝트 소개
+효율적인 의사소통 및 효과적인 정보공유를 가능하게 하는 중앙 집중식 그룹웨어 플랫폼입니다.
+<br>
 
-## Available Scripts
+## 🕰️ 개발 기간
+23.07.25 - 23.09.14
+<br>
 
-In the project directory, you can run:
+### 🧑‍🤝‍🧑 맴버 구성 
+- 팀원1 : 황다혜 - 시큐리티, 일반/소셜 로그인, 계정찾기, 비밀번호 변경, 관리자페이지 회원관리, 권한관리, 접속로그, 로깅, 에러핸들러, 예외처리, AWS 클라우드 배포
+- 팀원2 : 김나경 - 전자결재 
+- 팀원3 : 전아림 - 인사관리, 조직도 
+- 팀원4 : 조혜란 - 마이페이지
+- 팀원5 : 허유일 - 시설예약, 게시판
+- 팀원6 : 홍다희 - 채팅
+- 공통  : 서비스 기획 및 ERD 설계, REST API 개발 
 
-### `npm start`
+### ⚙️ 개발 환경
+- Javascript(ES6), node.js
+- React.js
+- Database : Oracle DB(11xe), Redis DB(7.x)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 주요 기능 <a href="https://github.com/HDhye/HIGHCARE-React/wiki/%ED%95%98%EC%9D%B4%EC%BC%80%EC%96%B4(%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C)"> - 상세 보기(wiki 이동)
+#### [시큐리티/로그인](https://github.com/HDhye/HIGHCARE-React/tree/main/src/pages/login)
+- 일반 로그인 
+- 소셜 로그인: OAuth2 인증방식 API 연동(구글, 카카오)
+- 계정찾기
+- 비밀번호 변경
+  
+#### [관리자 페이지](https://github.com/HDhye/HIGHCARE-React/tree/main/src/pages/admin)
+- 회원관리
+- 권한관리
+- 접속로그
+#### [비즈니스로직 공통 관심사](https://github.com/HDhye/HIGHCARE-React/tree/main/src/errors)
+- 에러핸들러
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
